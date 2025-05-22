@@ -15,7 +15,7 @@ The dataset, `bank-additional-full.csv`, is obtained from the [UCI Machine Learn
 - **Economic Indicators**: Employment variation rate, consumer price index, consumer confidence index, Euribor 3-month rate, and number of employees.
 - **Target Variable**: `y` (binary: "yes" or "no" for subscription to a term deposit).
 
-The dataset is read using pandas with a semicolon separator (`sep=';'`). The accompanying paper, [CRISP-DM-BANK.pdf](CRISP-DM-BANK.pdf), provides additional context on the data collection and features.
+The dataset is read using pandas with a semicolon separator (`sep=';'`). The accompanying paper, [CRISP-DM-BANK.pdf](module17_starter/CRISP-DM-BANK.pdf), provides additional context on the data collection and features.
 
 ## Summary of Findings
 
@@ -66,8 +66,6 @@ The Jupyter Notebook (`notebooks/prompt_III.ipynb`) is well-structured with:
 - **Headings**: Clear section headings for each problem (e.g., "Problem 1: Understanding the Data," "Problem 2: Read in the Data").
 - **Formatted Text**: Markdown cells provide explanations, answers, and analysis, with code cells for implementation.
 - **Content**: Includes data loading, feature analysis, model training, tuning, and comparison, culminating in a detailed analysis of classifier performance.
-
-[Link to Jupyter Notebook](notebooks/prompt_III.ipynb)
 
 ## Prerequisites
 To run the notebook, ensure the following dependencies are installed:
